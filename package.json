@@ -1,0 +1,42 @@
+{
+  "name": "hapi-waypointer-example",
+  "version": "0.1.0",
+  "description": "A example project which uses hapi-waypointer to auto document an APIs using Waypointer themes",
+  "keywords": [
+    "hapi",
+    "example",
+    "waypointer",
+    "modern",
+    "documentation",
+    "swagger",
+    "har"
+  ],
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glenn Jones <glennjonesnet@gmail.com> (http://glennjones.net/)",
+  "license": "All Rights Reserved",
+  "dependencies": {
+    "blipp": "^2.3.0",
+    "good": "^6.5.0",
+    "good-console": "^5.3.0",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.0.0",
+    "hapi-swagger": "glennjones/hapi-swagger",
+    "hapi-waypointer": "glennjones/hapi-waypointer",
+    "hoek": "^3.0.4",
+    "inert": "^3.2.0",
+    "joi": "7.2.3",
+    "js2xmlparser": "^1.0.0",
+    "vision": "^4.0.1",
+    "waypointer-hub": "glennjones/waypointer-hub",
+    "waypointer-plain": "glennjones/waypointer-plain",
+    "wreck": "^7.0.0"
+  },
+  "devDependencies": {
+    "lab": "8.2.0",
+    "code": "2.1.0",
+    "coveralls": "2.11.6"
+  }
+}
