@@ -1,7 +1,7 @@
 {
   "name": "hapi-waypointer-example",
   "version": "0.1.0",
-  "description": "A example project which uses hapi-waypointer to auto document an APIs using Waypointer themes",
+  "description": "A example project which uses hapi-waypointer to auto document an APIs with Waypointer themes",
   "keywords": [
     "hapi",
     "example",
@@ -32,6 +32,7 @@
     "vision": "^4.0.1",
     "waypointer-hub": "glennjones/waypointer-hub",
     "waypointer-plain": "glennjones/waypointer-plain",
+    "waypointer-form": "glennjones/waypointer-form",
     "wreck": "^7.0.0"
   },
   "devDependencies": {

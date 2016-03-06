@@ -29,7 +29,7 @@ const goodOptions = {
 
 
 let swaggerOptions = {
-    enableDocumentation: false,
+    enableDocumentation: true,
     basePath: '/v1',
     pathPrefixSize: 2,
     info: {
@@ -73,6 +73,9 @@ let waypointerOptions = {
     },{
         theme: require('waypointer-hub'),
         options: {'path': '/hub'}
+    },{
+        theme: require('waypointer-form'),
+        options: {'path': '/form'}
     }],
     'text': [{
         group: 'Sum',
