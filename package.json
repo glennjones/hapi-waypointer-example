@@ -30,7 +30,7 @@
     "hapi-waypointer": "glennjones/hapi-waypointer",
     "hoek": "^6.1.3",
     "inert": "^4.0.0",
-    "joi": "8.1.0",
+    "joi": "8.4.2",
     "js2xmlparser": "^1.0.0",
     "vision": "^4.0.1",
     "waypointer-form": "glennjones/waypointer-form",
