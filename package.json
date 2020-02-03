@@ -38,7 +38,7 @@
     "waypointer-form": "glennjones/waypointer-form",
     "waypointer-hub": "glennjones/waypointer-hub",
     "waypointer-plain": "glennjones/waypointer-plain",
-    "snyk": "^1.288.0"
+    "snyk": "^1.290.1"
   },
   "devDependencies": {
     "lab": "8.2.0",
