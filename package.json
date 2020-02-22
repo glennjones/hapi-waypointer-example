@@ -32,7 +32,7 @@
     "handlebars": "^4.0.5",
     "handlebars-helpers": "^0.9.0",
     "blipp": "^4.0.0",
-    "hapi-swagger": "^12.0.0",
+    "hapi-swagger": "^12.1.0",
     "hapi-waypointer": "glennjones/hapi-waypointer",
     "js2xmlparser": "^1.0.0",
     "waypointer-form": "glennjones/waypointer-form",
