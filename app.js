@@ -8,6 +8,7 @@ const Inert = require("@hapi/inert");
 const Vision = require("@hapi/vision");
 const HapiSwagger = require("hapi-swagger");
 const HapiWaypointer = require("hapi-waypointer");
+const AuthBearer = require('hapi-auth-bearer-token');
 
 const Routes = require("./lib/routes-new.js");
 const Pack = require("./package");
@@ -164,6 +165,25 @@ const ser = async () => {
     host: "localhost",
     port: 3015
   });
+
+  await server.register(AuthBearer)
+
+    server.auth.strategy('bearer', 'bearer-access-token', {
+        allowQueryToken: true,              // optional, false by default
+        validate: async (request, token, h) => {
+
+            // here is where you validate your token
+            // comparing with token from your database for example
+            const isValid = token === '1234';
+
+            const credentials = { token };
+            const artifacts = { test: 'info' };
+
+            return { isValid, credentials, artifacts };
+        }
+    });
+
+
 
   await server.register([
     Inert,
