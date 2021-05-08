@@ -30,7 +30,7 @@
     "@hapi/vision": "^6.0.0",
     "@hapi/wreck": "^17.0.0",
     "blipp": "^4.0.0",
-    "handlebars": "^4.0.5",
+    "handlebars": "^4.7.7",
     "handlebars-helpers": "^0.9.0",
     "hapi-auth-bearer-token": "^6.1.4",
     "hapi-swagger": "^12.0.0",
