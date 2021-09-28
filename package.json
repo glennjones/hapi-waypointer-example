@@ -36,7 +36,7 @@
     "hapi-swagger": "^12.0.0",
     "hapi-waypointer": "glennjones/hapi-waypointer",
     "js2xmlparser": "^1.0.0",
-    "snyk": "^1.288.0",
+    "snyk": "^1.290.1",
     "waypointer-form": "glennjones/waypointer-form",
     "waypointer-hub": "glennjones/waypointer-hub",
     "waypointer-plain": "glennjones/waypointer-plain"
