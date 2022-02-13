@@ -33,7 +33,7 @@
     "handlebars": "^4.0.5",
     "handlebars-helpers": "^0.9.0",
     "hapi-auth-bearer-token": "^6.1.4",
-    "hapi-swagger": "^12.0.0",
+    "hapi-swagger": "^14.2.5",
     "hapi-waypointer": "glennjones/hapi-waypointer",
     "js2xmlparser": "^1.0.0",
     "snyk": "^1.288.0",
