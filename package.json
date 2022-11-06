@@ -42,7 +42,7 @@
     "waypointer-plain": "glennjones/waypointer-plain"
   },
   "devDependencies": {
-    "lab": "8.2.0",
+    "lab": "18.0.2",
     "code": "2.1.0",
     "coveralls": "2.11.6"
   },
