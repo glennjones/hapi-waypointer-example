@@ -44,7 +44,7 @@
   "devDependencies": {
     "lab": "8.2.0",
     "code": "2.1.0",
-    "coveralls": "2.11.6"
+    "coveralls": "2.13.3"
   },
   "snyk": true
 }
